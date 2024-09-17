@@ -44,7 +44,6 @@ def get_filtered_colleges(request):
 
     result = [{
         # "number": index + 1,
-        # "id": college.id,
         "institute_name": college.institute_name,
         "program_name": college.program_name,
         "duration": college.duration,
